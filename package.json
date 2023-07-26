@@ -80,8 +80,8 @@
     "typestyle": "^2.4.0"
   },
   "devDependencies": {
-    "@jupyterlab/builder": "^3.6.5",
-    "@jupyterlab/testutils": "^4.0.0",
+    "@jupyterlab/builder": "~4.0.3",
+    "@jupyterlab/testutils": "~4.0.3",
     "@types/jest": "^29.2.0",
     "@types/json-schema": "^7.0.11",
     "@types/node": "^20.4.0",

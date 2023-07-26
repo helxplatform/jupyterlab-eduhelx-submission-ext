@@ -104,7 +104,7 @@ class SubmissionHandler(BaseHandler):
     @tornado.web.authenticated
     def post(self):
         res = requests.post(f"{ self.config.GRADER_API_URL }api/v1/submission", params={
-            "student_id": None,
+            "onyen": None,
             "commit_id": None
         })
         self.set_status(res.status_code)
